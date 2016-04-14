@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CAD1126B1CBCA7E500855C25 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAD1126A1CBCA7E500855C25 /* main.cpp */; };
+		CAD112861CBCA83400855C25 /* daxpy.c in Sources */ = {isa = PBXBuildFile; fileRef = CAD112731CBCA83400855C25 /* daxpy.c */; };
+		CAD112871CBCA83400855C25 /* ddot.c in Sources */ = {isa = PBXBuildFile; fileRef = CAD112741CBCA83400855C25 /* ddot.c */; };
+		CAD112881CBCA83400855C25 /* dnrm2.c in Sources */ = {isa = PBXBuildFile; fileRef = CAD112751CBCA83400855C25 /* dnrm2.c */; };
+		CAD112891CBCA83400855C25 /* dscal.c in Sources */ = {isa = PBXBuildFile; fileRef = CAD112761CBCA83400855C25 /* dscal.c */; };
+		CAD1128A1CBCA83400855C25 /* LBFRegressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAD112791CBCA83400855C25 /* LBFRegressor.cpp */; };
+		CAD1128B1CBCA83400855C25 /* linear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAD1127B1CBCA83400855C25 /* linear.cpp */; };
+		CAD1128C1CBCA83400855C25 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAD1127D1CBCA83400855C25 /* main.cpp */; };
+		CAD1128D1CBCA83400855C25 /* randomforest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAD1127E1CBCA83400855C25 /* randomforest.cpp */; };
+		CAD1128E1CBCA83400855C25 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CAD112801CBCA83400855C25 /* README.md */; };
+		CAD1128F1CBCA83400855C25 /* tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAD112811CBCA83400855C25 /* tree.cpp */; };
+		CAD112901CBCA83400855C25 /* tron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAD112831CBCA83400855C25 /* tron.cpp */; };
+		CAD112911CBCA83400855C25 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAD112851CBCA83400855C25 /* Utils.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +35,27 @@
 
 /* Begin PBXFileReference section */
 		CAD112671CBCA7E500855C25 /* JointFDA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JointFDA; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAD1126A1CBCA7E500855C25 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CAD112711CBCA83400855C25 /* blas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blas.h; sourceTree = "<group>"; };
+		CAD112721CBCA83400855C25 /* blasp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blasp.h; sourceTree = "<group>"; };
+		CAD112731CBCA83400855C25 /* daxpy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = daxpy.c; sourceTree = "<group>"; };
+		CAD112741CBCA83400855C25 /* ddot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ddot.c; sourceTree = "<group>"; };
+		CAD112751CBCA83400855C25 /* dnrm2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dnrm2.c; sourceTree = "<group>"; };
+		CAD112761CBCA83400855C25 /* dscal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dscal.c; sourceTree = "<group>"; };
+		CAD112771CBCA83400855C25 /* HighClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighClock.h; sourceTree = "<group>"; };
+		CAD112781CBCA83400855C25 /* LBF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBF.h; sourceTree = "<group>"; };
+		CAD112791CBCA83400855C25 /* LBFRegressor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LBFRegressor.cpp; sourceTree = "<group>"; };
+		CAD1127A1CBCA83400855C25 /* LBFRegressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFRegressor.h; sourceTree = "<group>"; };
+		CAD1127B1CBCA83400855C25 /* linear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linear.cpp; sourceTree = "<group>"; };
+		CAD1127C1CBCA83400855C25 /* linear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linear.h; sourceTree = "<group>"; };
+		CAD1127D1CBCA83400855C25 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CAD1127E1CBCA83400855C25 /* randomforest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = randomforest.cpp; sourceTree = "<group>"; };
+		CAD1127F1CBCA83400855C25 /* randomforest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randomforest.h; sourceTree = "<group>"; };
+		CAD112801CBCA83400855C25 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CAD112811CBCA83400855C25 /* tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tree.cpp; sourceTree = "<group>"; };
+		CAD112821CBCA83400855C25 /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		CAD112831CBCA83400855C25 /* tron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tron.cpp; sourceTree = "<group>"; };
+		CAD112841CBCA83400855C25 /* tron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tron.h; sourceTree = "<group>"; };
+		CAD112851CBCA83400855C25 /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +88,27 @@
 		CAD112691CBCA7E500855C25 /* JointFDA */ = {
 			isa = PBXGroup;
 			children = (
-				CAD1126A1CBCA7E500855C25 /* main.cpp */,
+				CAD112711CBCA83400855C25 /* blas.h */,
+				CAD112721CBCA83400855C25 /* blasp.h */,
+				CAD112731CBCA83400855C25 /* daxpy.c */,
+				CAD112741CBCA83400855C25 /* ddot.c */,
+				CAD112751CBCA83400855C25 /* dnrm2.c */,
+				CAD112761CBCA83400855C25 /* dscal.c */,
+				CAD112771CBCA83400855C25 /* HighClock.h */,
+				CAD112781CBCA83400855C25 /* LBF.h */,
+				CAD112791CBCA83400855C25 /* LBFRegressor.cpp */,
+				CAD1127A1CBCA83400855C25 /* LBFRegressor.h */,
+				CAD1127B1CBCA83400855C25 /* linear.cpp */,
+				CAD1127C1CBCA83400855C25 /* linear.h */,
+				CAD1127D1CBCA83400855C25 /* main.cpp */,
+				CAD1127E1CBCA83400855C25 /* randomforest.cpp */,
+				CAD1127F1CBCA83400855C25 /* randomforest.h */,
+				CAD112801CBCA83400855C25 /* README.md */,
+				CAD112811CBCA83400855C25 /* tree.cpp */,
+				CAD112821CBCA83400855C25 /* tree.h */,
+				CAD112831CBCA83400855C25 /* tron.cpp */,
+				CAD112841CBCA83400855C25 /* tron.h */,
+				CAD112851CBCA83400855C25 /* Utils.cpp */,
 			);
 			path = JointFDA;
 			sourceTree = "<group>";
@@ -118,7 +169,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAD1126B1CBCA7E500855C25 /* main.cpp in Sources */,
+				CAD112881CBCA83400855C25 /* dnrm2.c in Sources */,
+				CAD112871CBCA83400855C25 /* ddot.c in Sources */,
+				CAD112861CBCA83400855C25 /* daxpy.c in Sources */,
+				CAD1128F1CBCA83400855C25 /* tree.cpp in Sources */,
+				CAD1128A1CBCA83400855C25 /* LBFRegressor.cpp in Sources */,
+				CAD1128C1CBCA83400855C25 /* main.cpp in Sources */,
+				CAD1128D1CBCA83400855C25 /* randomforest.cpp in Sources */,
+				CAD112911CBCA83400855C25 /* Utils.cpp in Sources */,
+				CAD1128E1CBCA83400855C25 /* README.md in Sources */,
+				CAD1128B1CBCA83400855C25 /* linear.cpp in Sources */,
+				CAD112901CBCA83400855C25 /* tron.cpp in Sources */,
+				CAD112891CBCA83400855C25 /* dscal.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +269,7 @@
 		CAD1126F1CBCA7E500855C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -214,6 +277,7 @@
 		CAD112701CBCA7E500855C25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
